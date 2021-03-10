@@ -1,6 +1,6 @@
 
 <% @study_items.each do |si|%>
     <ul>
-        <li>  <%= si %> </li>
+        <li> --> <%= link_to(si.title, study_item_path(si.id)) %> </li>       
     </ul>    
 <% end %>

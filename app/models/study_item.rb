@@ -1,2 +1,3 @@
 class StudyItem < ApplicationRecord
+  
 end

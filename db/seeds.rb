@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# exemplo para popular banco
+
+StudyItem.create!(title: 'add_column', category: 'Rails')
+StudyItem.create!(title: 'Seeds', category: 'Rails')
+StudyItem.create!(title: 'Docker', category: 'Rails')

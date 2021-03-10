@@ -1,0 +1,10 @@
+<p>
+    <strong><em>titulo: <%= @study_item.title %> </em></strong><br>
+    Categoria: <%= @study_item.category %><br>
+    Status:
+        <% if @study_item.done.eql?(false) %>
+            <%= 'Pendente' %>
+        <% else %>
+            <%= 'Concluido' %>
+        <% end %>
+</p>
